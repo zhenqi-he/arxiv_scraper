@@ -7,12 +7,12 @@ from utils import *
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--catergory',required=True)# catergory of paper
+    parser.add_argument('--category',required=True)# catergory of paper
     parser.add_argument('--start_date',required=True)# statr_date , format: yyyy-mm-dd , e.g. 2022-01-08
     parser.add_argument('--end_date',required=True)# end_date , format: yyyy-mm-dd , e.g. 2022-01-08
 
     args = parser.parse_args()
-    catergory = args.catergory
+    catergory = args.category
     start_date = args.start_date
     end_date = args.end_date
     
