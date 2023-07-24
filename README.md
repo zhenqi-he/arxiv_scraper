@@ -7,3 +7,5 @@ Run the following code to start fetching paper published within start_date to en
 python arxiv_scraper.py --start_date='2022-01-01' --end_date='2023-06-30' --category='cs.AI'
 ```
 
+The available options for sub-category under computer science (cs) are under [cs_category.txt](cs_category.txt)
+
